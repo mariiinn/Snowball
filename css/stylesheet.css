@@ -23,4 +23,6 @@ body {
 
 .main-col-2-3 {
   grid-column: col-2-start/col-3-end;
+  background-image: url(../images/emptyPlate.jpg);
+  background-size: cover; /* Image should cover the box */
 }
