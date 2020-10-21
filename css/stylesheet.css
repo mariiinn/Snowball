@@ -1,0 +1,26 @@
+body {
+  background-color: grey;
+  margin: 0%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start]
+      1fr [col-3-end];
+}
+
+[class*="main-"] {
+  background-color: white;
+}
+
+.main-col-full {
+  grid-column: col-1-start/col-3-end;
+}
+
+.main-col-1 {
+  grid-column: col-1-start/col-2-start;
+}
+
+.main-col-2-3 {
+  grid-column: col-2-start/col-3-end;
+}
